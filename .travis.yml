@@ -8,10 +8,6 @@ install:
 - npm install
 script:
 - npm test
-cache:
-  directories:
-  - node_modules
-  - public/common/semantic
 deploy:
   provider: heroku
   api_key:
